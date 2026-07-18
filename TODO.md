@@ -1,0 +1,4 @@
+- [x] Review current CSS (completed)
+- [x] Update Food-website/index.css with improved header, responsive grid, and better card styling
+- [x] Verify CSS selectors don’t unintentionally affect global images
+- [x] (Optional) Run dev/build to confirm no regressions
