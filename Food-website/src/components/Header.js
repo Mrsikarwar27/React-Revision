@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const HeaderComponent = () => {
   const [login, setlogin] = useState("login");
@@ -17,9 +18,9 @@ const HeaderComponent = () => {
       </div>
       <div className="nav-items">
         <ul>
-          <li> Home </li>
-          <li> About us </li>
-          <li> Contact us </li>
+          <li> <Link to="/">   Home </Link>  </li>
+          <li> <Link to="/About">About</Link> </li>
+           <li> <Link to="/Contact">Contact</Link> </li>
           <li> Cart </li>
           <button
             onClick={() => {
